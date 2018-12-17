@@ -1,5 +1,6 @@
 {
   "name": "atenciones-berrio",
+  "homepage": "http://www.atencionesberrio.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
