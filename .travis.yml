@@ -14,5 +14,5 @@ deploy:
   skip_cleanup: true
   local_dir: build
   default_text_charset: "utf-8"
-  bucket: "atencionesberrio"
+  bucket: "www.atencionesberrio.com"
   region: us-east-2
