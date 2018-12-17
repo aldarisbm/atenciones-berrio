@@ -1,6 +1,6 @@
 {
   "name": "atenciones-berrio",
-  "homepage": "http://www.atencionesberrio.com",
+  "homepage": "http://atencionesberrio.s3-website.us-east-2.amazonaws.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
