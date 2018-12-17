@@ -11,7 +11,7 @@ class App extends Component {
           </h3>
           <a
             className="App-link"
-            href="/contactar"
+            href="mailto:joseantonioberrio@hotmail.com?Subject=Presupuesto"
             target="_blank"
             rel="noopener noreferrer"
           >
