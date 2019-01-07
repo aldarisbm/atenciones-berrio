@@ -1,5 +1,6 @@
 import React from 'react';
-import { 
+import '../styles/Gallery.css';
+import {
   Carousel,
   CarouselItem,
   CarouselControl,
@@ -7,8 +8,6 @@ import {
   CarouselCaption
 } from 'reactstrap';
 import NavBar from './NavBar';
-
-export default class Gallery extends React.Component {
 
 const items = [
   {
@@ -74,15 +73,18 @@ class Gallery extends React.Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} />
+          <img className='galeria' src={item.src} alt={item.altText} />
           <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </CarouselItem>
       );
     });
 
     return (
-      <Navbar/>
+      <div> 
+      <NavBar/>
+      <h3 className='header'>{'Galeria'}</h3>
       <Carousel
+        className='galeria'
         activeIndex={activeIndex}
         next={this.next}
         previous={this.previous}
@@ -92,6 +94,7 @@ class Gallery extends React.Component {
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
       </Carousel>
+      </div>
     );
   }
 }

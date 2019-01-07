@@ -2,12 +2,12 @@ import React from 'react';
 import '../styles/Home.css';
 import NavBar from './NavBar'
 
-class Home extends React.Component {
+export default class Home extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div className="home">
         <NavBar/>
-        <header className="App-header">
+        <header className="home-header">
           <h3>
             Atenciones Berrio
           </h3>

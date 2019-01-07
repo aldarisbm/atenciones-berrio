@@ -1,0 +1,14 @@
+.galeria {
+  padding-top: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.header {
+  padding-top: 30px;
+  align-items: center;
+  justify-content:center;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+}
